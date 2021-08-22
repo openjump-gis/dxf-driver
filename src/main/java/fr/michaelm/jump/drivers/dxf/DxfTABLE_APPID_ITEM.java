@@ -46,7 +46,6 @@ public class DxfTABLE_APPID_ITEM extends DxfTABLE_ITEM {
         Map<String,DxfTABLE_ITEM> table  = new LinkedHashMap<>();
         DxfGroup group;
         while (null != (group = DxfGroup.readGroup(raf)) && !group.equals(ENDTAB)) {
-            //group = DxfGroup.readGroup(raf);
             if (DxfFile.DEBUG) group.print(8);
             if (group.equals(APPID)) {
                 item = new DxfTABLE_APPID_ITEM("DEFAULT", 0);

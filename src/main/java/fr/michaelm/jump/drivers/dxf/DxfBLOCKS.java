@@ -36,7 +36,6 @@ import com.vividsolutions.jump.feature.FeatureDataset;
  * block.
  * @author Michaël Michaud
  */
-// History
 public class DxfBLOCKS {
 
     FeatureCollection entities;

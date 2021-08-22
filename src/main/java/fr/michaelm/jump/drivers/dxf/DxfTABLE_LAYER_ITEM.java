@@ -71,7 +71,6 @@ public class DxfTABLE_LAYER_ITEM extends DxfTABLE_ITEM {
                 item = new DxfTABLE_LAYER_ITEM("DEFAULT", 0);
             }
             else if (group.getCode()==2) {
-                //System.out.println("\t\t" + group.getValue());
                 item.setName(group.getValue());
                 table.put(item.getName(), item);
             }

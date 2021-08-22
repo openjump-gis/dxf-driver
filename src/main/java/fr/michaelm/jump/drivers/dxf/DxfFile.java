@@ -66,7 +66,7 @@ public class DxfFile {
     // Common FeatureSchema for ENTITIES
     public final static FeatureSchema DXF_SCHEMA = new FeatureSchema();
     public static boolean DXF_SCHEMA_INITIALIZED = false;
-    //static int iterator = 0;
+
     private DxfHEADER header = null;
     private DxfCLASSES classes = null;
     private DxfTABLES tables = null;

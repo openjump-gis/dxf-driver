@@ -94,7 +94,6 @@ public class DxfTABLE_UCS_ITEM extends DxfTABLE_ITEM {
         Map<String,DxfTABLE_ITEM> table  = new LinkedHashMap<>();
         DxfGroup group;
         while (null != (group = DxfGroup.readGroup(raf)) && !group.equals(ENDTAB)) {
-            //group = DxfGroup.readGroup(raf);
             if (DxfFile.DEBUG) group.print(8);
             if (group.equals(UCS)) {
                 item = new DxfTABLE_UCS_ITEM("DEFAULT", 0);

@@ -36,6 +36,7 @@ import com.vividsolutions.jump.workbench.plugin.PlugInContext;
  * @version 1.0.0
  */
 // History
+// 2.0.0 (2021-08-22) : * version number alignment with OpenJUMP's
 // 1.0.0 (2021-04-11) : * refactoring for OpenJUMP 2, JTS 1.18
 // 0.9.0 (2018-06-02) : * fix a regression preventing export of MultiPolygons
 //                      * use java 5 features (foreach, autoboxing, generics...)
@@ -83,6 +84,6 @@ public class DXFDriverConfiguration extends Extension {
 
     public String getName() {return "DXF driver";}
 
-    public String getVersion() {return "1.0.0 (2021-04-11)";}
+    public String getVersion() {return "2.0.0 (2021-08-22)";}
 
 }
