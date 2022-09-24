@@ -36,6 +36,7 @@ import com.vividsolutions.jump.workbench.plugin.PlugInContext;
  * @version 1.0.0
  */
 // History
+// 2.0.1 (2022-09-24) : * fix a bug related to a change in JTS API
 // 2.0.0 (2021-08-22) : * version number alignment with OpenJUMP's
 // 1.0.0 (2021-04-11) : * refactoring for OpenJUMP 2, JTS 1.18
 // 0.9.0 (2018-06-02) : * fix a regression preventing export of MultiPolygons

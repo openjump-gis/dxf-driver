@@ -85,7 +85,7 @@ public class DxfLWPOLYLINE extends DxfENTITY {
             else if (code==20) {
                 if (coord != null) {
                     coord.y = group.getDoubleValue();
-                    coordList.add(new Coordinate(x, y, z));
+                    coordList.add(new Coordinate(x, y, z), true);
                 }
             }
             //else {}

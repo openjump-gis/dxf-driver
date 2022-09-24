@@ -56,7 +56,7 @@ public class DxfVERTEX extends DxfENTITY {
         }
         if (!Double.isNaN(x) && !Double.isNaN(y)) {
             if (DxfFile.DEBUG) System.out.println("            " + new Coordinate(x,y,z));
-            coordList.add(new Coordinate(x,y,z));
+            coordList.add(new Coordinate(x,y,z), true);
         }
         return group;
     }
